@@ -1,0 +1,90 @@
+
+#header-nav{
+    background-color: #123;  
+}
+
+.navbar-brand{
+    margin-right: auto;
+    padding-top: 25px;
+}
+.navbar-brand h1{
+    /*restaurant name*/
+    color: gray;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    line-height: .75;
+}
+.navbar-brand a {
+    text-decoration: none;
+}
+
+#nav-list{
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+}
+#nav-list a{
+    color:gray;
+    text-align:center ;
+}
+#nav-list a:hover{
+    background: #123;
+}
+#nav-list a span{
+    font-size: 1.2em;
+}
+.nav-item{
+    border: 1px solid black;
+}
+#title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#menu-tile,#specials-tile,#map-tile{
+    height: 300px;;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow:auto ;
+
+}
+#menu-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile{
+    color: black;
+    background-color: gray;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+}
+
+#menu-tile span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    background-color: pink;
+    color: #111;
+    border: .5px solid #111;
+}
+.panel-footer{
+    margin-top: 50px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+
+
+@media (max-width: 767px){
+    .navbar-brand h1{
+        font-size: 1.3em;
+    }
+}
